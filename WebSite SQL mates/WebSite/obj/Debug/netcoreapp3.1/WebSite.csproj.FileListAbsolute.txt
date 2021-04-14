@@ -1,0 +1,319 @@
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.exe
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.deps.json
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.json
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.dev.json
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfoInputs.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfo.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.Manifest.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.xml
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebSite.styles.css
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.input.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.output.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorCoreGenerate.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cs
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CopyComplete
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.genruntimeconfig.cache
+C:\Users\ivan-\source\repos\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.csprojAssemblyReference.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.exe
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.deps.json
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.json
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.dev.json
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfoInputs.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.Manifest.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.xml
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebSite.styles.css
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.input.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.output.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorCoreGenerate.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CopyComplete
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\Desktop\WebSite\WebSite\obj\Debug\netcoreapp3.1\WebSite.genruntimeconfig.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.exe
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.deps.json
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.json
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.dev.json
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.csprojAssemblyReference.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfoInputs.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.Manifest.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.xml
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebSite.styles.css
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.input.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.output.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorCoreGenerate.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CopyComplete
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\Desktop\WebSite — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.genruntimeconfig.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.exe
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.deps.json
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.json
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.runtimeconfig.dev.json
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.csprojAssemblyReference.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfoInputs.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.AssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CoreCompileInputs.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorAssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.Manifest.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\staticwebassets\WebSite.StaticWebAssets.xml
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebSite.styles.css
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.input.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.TagHelpers.output.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorCoreGenerate.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Index.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.RazorTargetAssemblyInfo.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.Views.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.csproj.CopyComplete
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.dll
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.pdb
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\WebSite.genruntimeconfig.cache
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Login\log.cshtml.g.cs
+C:\Users\ivan-\Desktop\WebSite SQL — копия\WebSite\obj\Debug\netcoreapp3.1\Razor\Views\Register\reg.cshtml.g.cs

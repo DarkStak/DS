@@ -1,0 +1,10 @@
+﻿@model ICollection<WebSite.Storage.Entity.Profile>
+
+@foreach (var profile in Model)
+{
+    @profile.login
+    <br>
+    @profile.password
+    <br>
+    <br>
+}
