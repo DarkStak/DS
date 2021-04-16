@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nuKqdQ/8vX0SiuVxZZEIZu1w7GwErPMfQElw9IQjQ/tB/LH7oOjKSPOnPK/1mdsMIDPn7kMWgROnVZrm457lWg==",
+  "dgSpecHash": "Wf6/D11ehh/g9aKs1pOw9V0wZZTd6Fvn3YIA6dk6e5UOWqe7w3PFIbmtwRVMv0+QyqsbszDMT1awNqpqd4L52w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan-\\Desktop\\WebSite SQL — копия\\WebSite\\WebSite.csproj",
+  "projectFilePath": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivan-\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ivan-\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

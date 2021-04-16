@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan-\\Desktop\\WebSite SQL — копия\\WebSite\\WebSite.csproj": {}
+    "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan-\\Desktop\\WebSite SQL — копия\\WebSite\\WebSite.csproj": {
+    "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan-\\Desktop\\WebSite SQL — копия\\WebSite\\WebSite.csproj",
+        "projectUniqueName": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj",
         "projectName": "WebSite",
-        "projectPath": "C:\\Users\\ivan-\\Desktop\\WebSite SQL — копия\\WebSite\\WebSite.csproj",
+        "projectPath": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj",
         "packagesPath": "C:\\Users\\ivan-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan-\\Desktop\\WebSite SQL — копия\\WebSite\\obj\\",
+        "outputPath": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivan-\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,37 +1,32 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using WebSite.Models;
+using WebSite.Managers;
 
 namespace WebSite.Controllers
 {
-    public class HomeController : Controller
+    public class AuthController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IProfileID _manager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public AuthController(IProfileID manager)
         {
-            _logger = logger;
+            _manager = manager;
         }
 
-        public IActionResult Index()
+        public IActionResult log()
         {
-            return View();
+            var profiles = _manager.GetAll();
+            return View(profiles);
         }
 
-        public IActionResult Privacy()
+        public IActionResult reg()
         {
-            return View();
+            var profiles = _manager.GetAll();
+            return View(profiles);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }
