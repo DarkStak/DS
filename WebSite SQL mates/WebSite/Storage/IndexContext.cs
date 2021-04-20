@@ -8,13 +8,13 @@ using WebSite.Storage.Entity;
 
 namespace WebSite.Storage
 {
-    public class IndexContext: DbContext
+    public class IndexContext : DbContext
     {
         public IndexContext(DbContextOptions<IndexContext> options) : base(options)
         {
 
         }
 
-        public DbSet<Profile> Profiles { get; set; }
+        public DbSet<Profile> Profiles { get; set; } // Получается вся бада данных содержиться в Profiles?
     }
 }

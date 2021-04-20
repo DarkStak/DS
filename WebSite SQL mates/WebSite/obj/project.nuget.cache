@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Wf6/D11ehh/g9aKs1pOw9V0wZZTd6Fvn3YIA6dk6e5UOWqe7w3PFIbmtwRVMv0+QyqsbszDMT1awNqpqd4L52w==",
+  "dgSpecHash": "H040gHwRLzWXYtoKLOb+Ylr0v5c4NjCJAPjhgbI5gMLsdltLEh4MncaaDEDt1+TyFJFA37HOS2RJ/7jtgBuz+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj",
+  "projectFilePath": "C:\\Users\\ivan-\\DS\\WebSite SQL mates\\WebSite\\WebSite.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ivan-\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\ivan-\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ivan-\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ivan-\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

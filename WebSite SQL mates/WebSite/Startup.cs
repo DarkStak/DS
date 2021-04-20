@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using WebSite.Storage.Entity;
 using WebSite.Storage;
 using WebSite.Managers;
+using WebSite.Models;
 
 
 namespace WebSite
@@ -31,6 +32,7 @@ namespace WebSite
             services.AddControllersWithViews();
             services.AddDbContext<IndexContext>(options => options.UseSqlServer(
                 "Server=localhost;Database=users;User ID=genryblackeye;Password=Serv_1dataBase04"));
+            services.AddTransient<IAuthModel, AuthModel>();
             services.AddTransient<IProfileID, ProfileID>();
         }
 

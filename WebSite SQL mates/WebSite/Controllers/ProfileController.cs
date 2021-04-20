@@ -18,8 +18,7 @@ namespace WebSite.Controllers
 
         public IActionResult Index()
         {
-            var profiles = _manager.GetAll();
-            return View(profiles);
+            return View();
         }
 
     }

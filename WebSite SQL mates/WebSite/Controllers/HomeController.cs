@@ -7,25 +7,18 @@ using WebSite.Managers;
 
 namespace WebSite.Controllers
 {
-    public class AuthController : Controller
+    public class HomeController : Controller
     {
         private IProfileID _manager;
 
-        public AuthController(IProfileID manager)
+        public HomeController(IProfileID manager)
         {
             _manager = manager;
         }
 
-        public IActionResult log()
+        public IActionResult Index()
         {
-            var profiles = _manager.GetAll();
-            return View(profiles);
-        }
-
-        public IActionResult reg()
-        {
-            var profiles = _manager.GetAll();
-            return View(profiles);
+            return View();
         }
 
     }

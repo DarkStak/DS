@@ -1,1 +1,31 @@
-﻿Регистрация
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Registration</title>
+    <link href="~/reg.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form_reg" action="~/Auth/reg" method="POST">
+        <section>
+            <img src="~/Stock/pngegg.png" style="height: 630px; width: 380px" />
+        </section>
+        <div class="sec2">
+            <div class="container">
+                <div class="content">
+                    <h2>Регистрация</h2>
+                    <input type="text" id="TextBox1" name="login" placeholder="Логин" /><br />
+                    <input type="password" id="TextBox2" name="password" placeholder="Пароль" /><br />
+                    <input type="password" id="TextBox3" name="confirm" placeholder="Повтор пароля" /><br />
+                    <br />
+                    <input type="submit" value="Регистрация"></input><br /><br />
+                    <a href="~/Auth/log">Авторизация</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+

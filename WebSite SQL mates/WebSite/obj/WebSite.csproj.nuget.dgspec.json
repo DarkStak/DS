@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj": {}
+    "C:\\Users\\ivan-\\DS\\WebSite SQL mates\\WebSite\\WebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj": {
+    "C:\\Users\\ivan-\\DS\\WebSite SQL mates\\WebSite\\WebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj",
+        "projectUniqueName": "C:\\Users\\ivan-\\DS\\WebSite SQL mates\\WebSite\\WebSite.csproj",
         "projectName": "WebSite",
-        "projectPath": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\WebSite.csproj",
+        "projectPath": "C:\\Users\\ivan-\\DS\\WebSite SQL mates\\WebSite\\WebSite.csproj",
         "packagesPath": "C:\\Users\\ivan-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan-\\source\\repos\\WebSite SQL mates\\WebSite\\obj\\",
+        "outputPath": "C:\\Users\\ivan-\\DS\\WebSite SQL mates\\WebSite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ivan-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,9 +37,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.5, )"
