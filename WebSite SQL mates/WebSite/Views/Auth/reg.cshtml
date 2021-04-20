@@ -1,4 +1,17 @@
-﻿
+﻿@page
+@using WebSite.Managers
+@model ProfileID
+@{
+    string request_login = "";
+    string request_password = "";
+    string request_confirm = "";
+    if (Request != null)
+    {
+        request_login = Request.Form["login"];
+        request_password = Request.Form["password"];
+        request_confirm = Request.Form["confirm"];
+    }
+}
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,9 +29,10 @@
             <div class="container">
                 <div class="content">
                     <h2>Регистрация</h2>
-                    <input type="text" id="TextBox1" name="login" placeholder="Логин" /><br />
-                    <input type="password" id="TextBox2" name="password" placeholder="Пароль" /><br />
-                    <input type="password" id="TextBox3" name="confirm" placeholder="Повтор пароля" /><br />
+                    <h2>@ViewBag.Head</h2>
+                    <input type="text" id="TextBox1" name="login" placeholder="Логин" value="@request_login" /><br />
+                    <input type="password" id="TextBox2" name="password" placeholder="Пароль" value="@request_password" /><br />
+                    <input type="password" id="TextBox3" name="confirm" placeholder="Повтор пароля" value="@request_confirm" /><br />
                     <br />
                     <input type="submit" value="Регистрация"></input><br /><br />
                     <a href="~/Auth/log">Авторизация</a>

@@ -31,12 +31,15 @@ namespace WebSite.Controllers
         }
 
         [HttpPost]
-        public ActionResult reg(string login, string password,string confirm)
+        public ActionResult reg(string nulled)
         {
-            if (_manager.Register(login, password, confirm))
-            {
 
-            }
+            /*if (_manager.Register(Request.Form["login"], Request.Form["password"], Request.Form["confirm"]) == "Регистрация прошла успешно!")
+            {
+                
+            }*/
+            //return View();
+            ViewBag.Head = "Привет мир!";
             return View();
         }
 

@@ -1,13 +1,31 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>DarkStak</title>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Registration</title>
+    <link href="~/home.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Приветствуем на сайте DarkStak!<br /></h1>
-    <h1>Наш сайт  является крупнейшем магазином аккаунтов, ключей, документов, а так же cookie!</h1>
-    @Html.ActionLink("Вход", "log", "Auth")
-    @Html.ActionLink("Регистрация", "reg", "Auth")
+    <form id="form1" runat="server">
+        <section>
+        </section>
+        <div class="logo">
+            <img src="~/Stock/DarkStak.png" />
+        </div>
+        <div class="sec2">
+            <div class="container">
+                <div class="content">
+                    <h2>Добро пожаловать на сайт "DarkStak"!</h2>
+                    @Html.ActionLink("Вход", "log", "Auth")
+                    @Html.ActionLink("Регистрация", "reg", "Auth")
+                </div>
+                <div class="social">
+                    <img src="~/Stock/VK_Monochrome_Logo.png"/>
+                    <img src="~/Stock/1926b399d50366f31cb056ba00db6f72.png"/>
+                </div>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

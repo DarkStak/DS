@@ -9,6 +9,6 @@ namespace WebSite.Managers
     public interface IProfileID
     {
         public bool Login(string login, string password);
-        public bool Register(string login, string password, string confirm);
+        public string Register(string login, string password, string confirm);
     }
 }
