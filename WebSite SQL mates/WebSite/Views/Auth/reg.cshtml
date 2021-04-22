@@ -1,16 +1,9 @@
-﻿@page
-@using WebSite.Managers
-@model ProfileID
+﻿@model WebSite.Storage.Entity.ProfileReg
+
 @{
-    string request_login = "";
-    string request_password = "";
-    string request_confirm = "";
-    if (Request != null)
-    {
-        request_login = Request.Form["login"];
-        request_password = Request.Form["password"];
-        request_confirm = Request.Form["confirm"];
-    }
+    string request_login = Model.login;
+    string request_password = Model.password;
+    string request_confirm = Model.confirm;
 }
 <!DOCTYPE html>
 
@@ -29,7 +22,7 @@
             <div class="container">
                 <div class="content">
                     <h2>Регистрация</h2>
-                    <h2>@ViewBag.Head</h2>
+                    <h1>@ViewBag.answer</h1>
                     <input type="text" id="TextBox1" name="login" placeholder="Логин" value="@request_login" /><br />
                     <input type="password" id="TextBox2" name="password" placeholder="Пароль" value="@request_password" /><br />
                     <input type="password" id="TextBox3" name="confirm" placeholder="Повтор пароля" value="@request_confirm" /><br />
@@ -42,4 +35,3 @@
     </form>
 </body>
 </html>
-

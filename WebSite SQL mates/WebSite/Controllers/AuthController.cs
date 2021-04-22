@@ -11,6 +11,10 @@ using WebSite.Storage.Entity;
 
 namespace WebSite.Controllers
 {
+    public class Success
+    {
+        public string success { get; set; }
+    }
     public class AuthController : Controller
     {
         private IProfileID _manager;
@@ -20,39 +24,44 @@ namespace WebSite.Controllers
             _manager = manager;
         }
 
+        [HttpGet]
         [HttpPost]
-        public ActionResult log(string login, string password)
-        {
-            if (_manager.Login(login, password))
-            {
-
-            }
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult reg(string nulled)
-        {
-
-            /*if (_manager.Register(Request.Form["login"], Request.Form["password"], Request.Form["confirm"]) == "Регистрация прошла успешно!")
-            {
-                
-            }*/
-            //return View();
-            ViewBag.Head = "Привет мир!";
-            return View();
-        }
-
         public IActionResult log()
         {
-
-            return View();
+            Profile profileLog = new Profile();
+            if (Request.HasFormContentType == true)
+            {
+                ViewBag.answer = _manager.Login(Request.Form["login"], Request.Form["password"]);
+                profileLog.login = Request.Form["login"];
+                profileLog.password = Request.Form["password"];
+            }
+            else
+            {
+                profileLog.login = "";
+                profileLog.password = "";
+            }
+            return View(profileLog);
         }
 
+        [HttpGet]
+        [HttpPost]
         public IActionResult reg()
         {
-
-            return View();
+            ProfileReg profileReg = new ProfileReg();
+            if (Request.HasFormContentType==true)
+            {
+                ViewBag.answer = _manager.Register(Request.Form["login"], Request.Form["password"], Request.Form["confirm"]);
+                profileReg.login = Request.Form["login"];
+                profileReg.password = Request.Form["password"];
+                profileReg.confirm = Request.Form["confirm"];
+            }
+            else
+            {
+                profileReg.login = "";
+                profileReg.password = "";
+                profileReg.confirm = "";
+            }
+            return View(profileReg);
         }
 
     }
