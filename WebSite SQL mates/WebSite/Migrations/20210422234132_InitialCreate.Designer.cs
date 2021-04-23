@@ -9,8 +9,8 @@ using WebSite.Storage;
 namespace WebSite.Migrations
 {
     [DbContext(typeof(IndexContext))]
-    [Migration("20210412211934_InitalCreate")]
-    partial class InitalCreate
+    [Migration("20210422234132_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

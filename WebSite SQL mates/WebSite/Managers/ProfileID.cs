@@ -60,16 +60,19 @@ namespace WebSite.Managers
             string answer = Checker.CheckLog(login, password);
             if (answer == null)
             {
-                if (Parser.ParseLogin(login) && Parser.ParsePassword(password))
+                //if (Parser.ParseLogin(login) && Parser.ParsePassword(password))
                 {
-                    var user = _authModel.Auth(login, BCrypt.Net.BCrypt.HashPassword(password));
-                    if (user != null)
+                    var user = _authModel.Auth(login, password);
+                    if (user.Result != null)
                         return "Авторизация прошла успешно!";
                     else
                         return "Логин или пароль неверны!";
                 }
+                //else
+                    //return "Логин или пароль слабые!";
             }
-            return "Ошибка при авторизации!";
+            else
+                return answer;
         }
 
         public string Register(string login, string password, string confirm)
@@ -88,19 +91,11 @@ namespace WebSite.Managers
                         return "Регистрация прошла успешно!";
                     }
                 }
+                //else
+                    //return "Логин или пароль слабые!";
             }
-
-            return "Ошибка при регистрации!";
-
-            /*FileStream f = new FileStream("reg.txt", FileMode.Create);
-            byte[] info = new UTF8Encoding(true).GetBytes(login + "\n");
-            f.Write(info, 0, info.Length);
-            info = new UTF8Encoding(true).GetBytes(password + "\n");
-            f.Write(info, 0, info.Length);
-            info = new UTF8Encoding(true).GetBytes(confirm + "\n");
-            f.Write(info, 0, info.Length);
-            f.Close();*/
-            return answer;
+            else
+                return answer;
         }
     }
 }

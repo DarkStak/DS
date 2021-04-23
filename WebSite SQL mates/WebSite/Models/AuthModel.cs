@@ -19,7 +19,12 @@ namespace WebSite.Models
         }
         public async Task<Profile> Auth(string login,string password)
         {
-            return await _context.Profiles.FirstOrDefaultAsync(x => x.login == login && x.password == password);
+            Profile User = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
+            bool Result = BCrypt.Net.BCrypt.Verify(password, User.password);
+            if (Result)
+                return User;
+            else
+                return null;
         }
         public async Task<Profile> Create(string login, string password)
         {
