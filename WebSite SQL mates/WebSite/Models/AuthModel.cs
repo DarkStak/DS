@@ -48,17 +48,15 @@ namespace WebSite.Models
             _context.Profiles.Remove(profileToDelete);
             await _context.SaveChangesAsync();
         }
-        public async Task<Profile> Update(string login, string password)
+        public async Task<Profile> Update(Profile User, string password)
         {
-            var profileToUpdate = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
+            //var profileToUpdate = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
 
-            //Proverka na null
-
-            profileToUpdate.password = password;
+            User.password = BCrypt.Net.BCrypt.HashPassword(password);
 
             await _context.SaveChangesAsync();
 
-            return profileToUpdate;
+            return User;
         }
 
         public async Task<Profile> Read(string login)

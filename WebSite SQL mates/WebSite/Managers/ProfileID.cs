@@ -97,5 +97,22 @@ namespace WebSite.Managers
             else
                 return answer;
         }
+
+        public string ChangePassword(Profile User, string password, string newpassword, string newconfirm)
+        {
+            bool Result = BCrypt.Net.BCrypt.Verify(password, User.password);
+            if (Result)
+            {
+                if (newpassword == newconfirm)
+                {
+                    _authModel.Update(User, newpassword);
+                    return "Пароль успешно обновлён!";
+                }
+                else
+                    return "Пароли не совпадают!";
+            }
+            else
+                return "Неверный пароль!";
+        }
     }
 }

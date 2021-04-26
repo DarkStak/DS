@@ -1,10 +1,14 @@
-﻿@*@model ICollection<WebSite.Storage.Entity.Profile>
+﻿@model WebSite.Storage.Entity.Profile
 
-@foreach (var profile in Model)
-{
-    @profile.login
-    <br>
-    @profile.password
-    <br>
-    <br>
-}*@
+@{ 
+
+}
+<body>
+    <h1>@ViewBag.answer</h1><br />
+    <form id="form_change" action="~/Profile/Index" method="POST">
+        <input type="password" id="TextBox1" name="password" placeholder="Пароль" /><br />
+        <input type="password" id="TextBox2" name="newpassword" placeholder="Новый пароль" /><br />
+        <input type="password" id="TextBox3" name="newconfirm" placeholder="Повторите пароль" /><br />
+        <input type="submit" value="Сменить пароль"></input><br /><br />
+    </form>
+</body>

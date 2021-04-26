@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebSite.Managers;
+using WebSite.Storage.Entity;
 
 namespace WebSite.Controllers
 {
@@ -16,9 +17,17 @@ namespace WebSite.Controllers
             _manager = manager;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        [HttpPost]
+        public IActionResult Index(Profile User)
         {
-            return View();
+            ViewBag.answer = User.login;
+            if (Request.HasFormContentType == true)
+            {
+                //ViewBag.answer = _manager.ChangePassword(profile, Request.Form["password"], Request.Form["newpassword"], Request.Form["newconfirm"]);
+                
+            }
+            return View(User);
         }
 
     }

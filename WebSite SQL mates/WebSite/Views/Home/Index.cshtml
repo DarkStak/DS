@@ -4,28 +4,36 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Registration</title>
-    <link href="~/home.css" rel="stylesheet" />
+    <link href="home.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <section>
-        </section>
-        <div class="logo">
-            <img src="~/Stock/DarkStak.png" />
-        </div>
-        <div class="sec2">
-            <div class="container">
-                <div class="content">
-                    <h2>Добро пожаловать на сайт "DarkStak"!</h2>
-                    @Html.ActionLink("Вход", "log", "Auth")
-                    @Html.ActionLink("Регистрация", "reg", "Auth")
+    <header>
+        <form id="form1" runat="server">
+            <section>
+            </section>
+            <div class="sec2">
+                <div class="container">
+                    <div class="content1">
+                        <h2>Добро пожаловать на сайт "DarkStak"!</h2>
+                        <img class="logo" src='~/Stock/DarkStak.png' /><br />
+                        <br />
+                        <div class="social">
+                            <a href="http://www.yandex.ru">
+                                <img src='/Stock/VK_Monochrome_Logo.png' width="40" height="40" />
+                            </a>
+                            <a href="http://www.yandex.ru">
+                                <img src='/Stock/1926b399d50366f31cb056ba00db6f72_new.png' width="40" height="40" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        @Html.ActionLink("Авторизация", "log", "Auth")
+                        @Html.ActionLink("Регистрация", "reg", "Auth")
+                    </div>
                 </div>
-                <div class="social">
-                    <img src="~/Stock/VK_Monochrome_Logo.png"/>
-                    <img src="~/Stock/1926b399d50366f31cb056ba00db6f72.png"/>
-                </div>
-            </div>
         </div>
-    </form>
+        </form>
+    </header>
 </body>
 </html>
+

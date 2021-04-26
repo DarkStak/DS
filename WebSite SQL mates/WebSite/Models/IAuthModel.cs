@@ -11,7 +11,7 @@ namespace WebSite.Models
         public Task<Profile> Auth(string login, string password);
         public Task<Profile> Create(string login, string password);
         public Task Delete(string login);
-        public Task<Profile> Update(string login, string password);
+        public Task<Profile> Update(Profile User, string password);
         public Task<Profile> Read(string login);
     }
 }

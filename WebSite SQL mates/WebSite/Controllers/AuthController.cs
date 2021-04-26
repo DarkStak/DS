@@ -8,6 +8,7 @@ using System.Text.RegularExpressions;
 using System.IO;
 using System.Text;
 using WebSite.Storage.Entity;
+using WebSite.Controllers;
 
 namespace WebSite.Controllers
 {
@@ -34,6 +35,13 @@ namespace WebSite.Controllers
                 ViewBag.answer = _manager.Login(Request.Form["login"], Request.Form["password"]);
                 profileLog.login = Request.Form["login"];
                 profileLog.password = Request.Form["password"];
+                if (ViewBag.answer == "Авторизация прошла успешно!")
+                {
+                    ViewBag.path = "/Profile/Index";
+                    return Redirect("/Profile/Index");
+                }
+                else
+                    ViewBag.path = "/Auth/log"; 
             }
             else
             {
