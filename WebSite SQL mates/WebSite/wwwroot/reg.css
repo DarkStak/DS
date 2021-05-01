@@ -4,6 +4,7 @@
 }
 
 section {
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-image: url('Stock/1587051609_4-p-chernie-foni-s-gradientom-11 (1).jpg');
@@ -11,7 +12,12 @@ section {
     justify-content: center;
     align-items: center;
 }
-
+.container {
+    max-width: 1170px;
+    margin: auto;
+    height: 500px;
+    bottom: 60%;
+}
 .sec2 {
     position: absolute;
     left: 0;
@@ -26,12 +32,20 @@ section {
 }
 
 .content h2 {
-    font-family: 'Segoe UI', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 0.6vw;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
+}
+.content h1 {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    width: 10vw;
+    padding-left: 0.6vw;
+    padding-top: 0.4vw;
 }
 
 .content input[type=text] {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     height: 30px;
     margin-top: 2.5vh;
     margin-left: 0vW;
@@ -41,6 +55,7 @@ section {
 }
 
 .ForText input[type=text] {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     height: 30px;
     margin-top: 2.5vh;
     margin-left: 0vW;
@@ -50,6 +65,7 @@ section {
 }
 
 .content input[type=password] {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     height: 30px;
     margin-top: 2.5vh;
     margin-left: 0vW;
@@ -59,6 +75,7 @@ section {
 }
 
 .ForText input[type=password] {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     height: 30px;
     margin-top: 2.5vh;
     margin-left: 0vW;
@@ -68,8 +85,9 @@ section {
 }
 
 .content input[type=submit] {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    margin-left: 1.7vw;
+    margin-left: 1.4vw;
     margin-top: 2vh;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -78,29 +96,30 @@ section {
     border-radius: 6px;
     border: 1px solid;
     background-color: black;
+    font-size: 13px;
 }
 
 .content a {
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    margin-left: 1.7vw;
+    margin-left: 1.4vw;
     margin-top: 2vh;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 15px;
+    padding-right: 15px;
     text-decoration: none;
-    padding-right: 5px;
     border-radius: 6px;
     border: 1px solid;
     background-color: black;
+    font-size: 13px;
 }
 
 .content input[placeholder] {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 1vw;
     font-size: 13px;
     color: black;
 }
 
-.HyperLink2 {
-    margin-left: 5000vw
-}
+

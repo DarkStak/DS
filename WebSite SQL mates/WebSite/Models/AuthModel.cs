@@ -12,6 +12,7 @@ namespace WebSite.Models
     {
 
         private IndexContext _context;
+        //private AccountContext _accounttext;
         //Profile user;
         public AuthModel(IndexContext context)
         {
@@ -39,6 +40,20 @@ namespace WebSite.Models
             await _context.SaveChangesAsync();
 
             return newProfile;
+        }
+
+        public async Task<Profile> CreateAccount(string login, string password)
+        {
+            Account newAccount = new Account();
+
+            newAccount.login = login;
+            newAccount.password = password;
+            newAccount.Avatar = "~/Stock/zeroUser.jpg";
+
+            _context.Accounts.Add(newAccount);
+            await _context.SaveChangesAsync();
+
+            return newAccount;
         }
         public async Task Delete(string login)
         {

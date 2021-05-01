@@ -9,8 +9,8 @@ using WebSite.Storage;
 namespace WebSite.Migrations
 {
     [DbContext(typeof(IndexContext))]
-    [Migration("20210422234132_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210501205849_InitalCreate")]
+    partial class InitalCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,6 +27,10 @@ namespace WebSite.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("login")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -38,6 +42,15 @@ namespace WebSite.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Profiles");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Profile");
+                });
+
+            modelBuilder.Entity("WebSite.Storage.Entity.Account", b =>
+                {
+                    b.HasBaseType("WebSite.Storage.Entity.Profile");
+
+                    b.HasDiscriminator().HasValue("Account");
                 });
 #pragma warning restore 612, 618
         }

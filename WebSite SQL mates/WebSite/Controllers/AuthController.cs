@@ -9,6 +9,7 @@ using System.IO;
 using System.Text;
 using WebSite.Storage.Entity;
 using WebSite.Controllers;
+using Microsoft.AspNetCore.Http;
 
 namespace WebSite.Controllers
 {
@@ -37,11 +38,13 @@ namespace WebSite.Controllers
                 profileLog.password = Request.Form["password"];
                 if (ViewBag.answer == "Авторизация прошла успешно!")
                 {
-                    ViewBag.path = "/Profile/Index";
+                    HttpContext.Session.SetString("login", profileLog.login);
                     return Redirect("/Profile/Index");
                 }
-                else
-                    ViewBag.path = "/Auth/log"; 
+                else if(ViewBag.answer == "Поля должны быть заполнены!")
+                {
+                    ViewBag.path = "/Auth/log";                   
+                }
             }
             else
             {
@@ -72,5 +75,20 @@ namespace WebSite.Controllers
             return View(profileReg);
         }
 
+        [HttpGet]
+        [HttpPost]
+        public IActionResult Profile()
+        {
+            // Здесь десериализовать объект и  обработать пост запрос
+            if (Request.HasFormContentType==true)
+            {
+
+            }
+            else
+            {
+
+            }
+            return View();
+        }
     }
 }

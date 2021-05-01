@@ -88,6 +88,7 @@ namespace WebSite.Managers
                     else
                     {
                         _authModel.Create(login, BCrypt.Net.BCrypt.HashPassword(password));
+                        _authModel.CreateAccount(login, BCrypt.Net.BCrypt.HashPassword(password));
                         return "Регистрация прошла успешно!";
                     }
                 }

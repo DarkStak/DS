@@ -30,5 +30,13 @@ namespace WebSite.Controllers
             return View(User);
         }
 
+        [HttpGet]
+        [HttpPost]
+        public IActionResult purchases()
+        {
+
+            return View();
+        }
+
     }
 }

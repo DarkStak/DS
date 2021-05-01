@@ -2,7 +2,7 @@
 
 namespace WebSite.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitalCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,7 +13,8 @@ namespace WebSite.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     login = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    password = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false) // Авторизация не получиться!
                 },
                 constraints: table =>
                 {

@@ -38,6 +38,8 @@ section {
 }
 
     .sec2 .logo {
+        color: gray;
+        margin-left:2vw;
         display: block;
         margin: 0 auto;
         width: 463px;
@@ -45,13 +47,14 @@ section {
         border-radius: 50px;
         border: 6px black;
         margin-bottom: -3vw;
+        background-color: black;
     }
 
     .sec2 .social {
         left: 41%;
         position: relative;
         padding-top: 6vh;
-        width: 92px;
+        width: 300px;
         height: 92px;
         margin-bottom: -1.5vw;
     }
@@ -76,4 +79,7 @@ section {
     border-radius: 10px;
     background-color: black;
     padding-right: 40px;
+}
+.social a:link, a:visited {
+    text-decoration: none;
 }

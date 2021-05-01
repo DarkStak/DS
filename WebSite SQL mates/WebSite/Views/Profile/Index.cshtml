@@ -1,14 +1,50 @@
 ﻿@model WebSite.Storage.Entity.Profile
+@using Microsoft.AspNetCore.Http
 
-@{ 
-
+@{ if (Context.Session.GetString("login") == null)
+                    Context.Response.Redirect("/Auth/log"); 
 }
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="~/Profile.css" rel="stylesheet" />
+</head>
 <body>
-    <h1>@ViewBag.answer</h1><br />
-    <form id="form_change" action="~/Profile/Index" method="POST">
-        <input type="password" id="TextBox1" name="password" placeholder="Пароль" /><br />
-        <input type="password" id="TextBox2" name="newpassword" placeholder="Новый пароль" /><br />
-        <input type="password" id="TextBox3" name="newconfirm" placeholder="Повторите пароль" /><br />
-        <input type="submit" value="Сменить пароль"></input><br /><br />
+    <form id="form1" runat="server">
+        <section>
+            <img src="~/Stock/pngegg.png" style="height: 750px; width: 500px" />
+        </section>
+        <div class="sec2">
+            <div class="container">
+                <div class="content">
+                    <img src="~/Stock/zeroUser.jpg" alt="" width="150" height="150" />
+                </div>
+                <div class="content1">
+                    <input type="submit" value="Поменять аватар" />
+                </div>
+                <div class="content2">
+                    <h1>@Context.Session.GetString("login")</h1><br />
+                </div>
+                <div class="content3">
+                    <a href="~/Profile/change">Смена пароля</a>
+                </div>
+                <br />
+                <br />
+                <div class="content5">
+                    <a href="~/Profile/purchases">Список покупок</a>
+                </div>
+                <br />
+                <br />
+                <div class="content4">
+                    <a href="~/Profile/basket">Корзина</a>
+                </div>
+
+            </div>
+        </div>
     </form>
 </body>
+</html>

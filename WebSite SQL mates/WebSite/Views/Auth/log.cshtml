@@ -1,6 +1,9 @@
 ﻿@model WebSite.Storage.Entity.Profile
+@using Microsoft.AspNetCore.Http
 
 @{ 
+    if (Context.Session.GetString("login") != null)
+        Context.Response.Redirect("/Profile/Index");
     string request_login = Model.login;
     string request_password = Model.password;
  }
@@ -9,26 +12,29 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Login</title>
+
     <link href="~/log.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form_log" action="@ViewBag.path" method="POST">
+    <form id="form_log" action="~/Auth/log" method="POST">
         <section>
-            <img src="~/Stock/pngegg.png" style="height: 630px; width: 380px" />
+            <img src="~/Stock/pngegg.png" style="height: 750px; width: 400px" />
         </section>
         <div class="sec2">
             <div class="container">
                 <div class="content">
                     <h2>Авторизация</h2>
-                    <h1>@ViewBag.answer</h1>
-                    <input type="text" placeholder="Логин" name="login" value="@request_login"/><br />
+                    <input type="text" placeholder="Логин" name="login" value="@request_login" /><br />
                     <br />
-                    <input type="password" placeholder="Пароль" name="password" value="@request_password"/><br />
+                    <input type="password" placeholder="Пароль" name="password" value="@request_password" /><br />
                     <br />
-                    <input type="submit" value="Авторизация"></input><br /><br />
+                    <input type="submit" value="Авторизация"><br /><br />
                     <a href="~/Auth/reg">Регистрация</a>
+                    <h1>
+                        @ViewBag.answer
+                    </h1>
                 </div>
-            </div>
+                </div>
         </div>
     </form>
 </body>

@@ -32,8 +32,11 @@ namespace WebSite
             services.AddControllersWithViews();
             services.AddDbContext<IndexContext>(options => options.UseSqlServer(
                 "Server=localhost;Database=users;User ID=genryblackeye;Password=Serv_1dataBase04"));
+            /*services.AddDbContext<AccountContext>(options => options.UseSqlServer(
+                "Server=localhost;Database=users;User ID=genryblackeye;Password=Serv_1dataBase04"));*/
             services.AddTransient<IAuthModel, AuthModel>();
             services.AddTransient<IProfileID, ProfileID>();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +58,8 @@ namespace WebSite
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
