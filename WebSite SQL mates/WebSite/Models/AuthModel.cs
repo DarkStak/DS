@@ -21,9 +21,14 @@ namespace WebSite.Models
         public async Task<Profile> Auth(string login,string password)
         {
             Profile User = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
-            bool Result = BCrypt.Net.BCrypt.Verify(password, User.password);
-            if (Result)
-                return User;
+            if (User != null)
+            {
+                bool Result = BCrypt.Net.BCrypt.Verify(password, User.password);
+                if (Result)
+                    return User;
+                else
+                    return null;
+            }
             else
                 return null;
         }
@@ -42,35 +47,63 @@ namespace WebSite.Models
             return newProfile;
         }
 
-        public async Task<Profile> CreateAccount(string login, string password)
+        public async Task<Account> CreateAccount(string login, string password)
         {
             Account newAccount = new Account();
 
             newAccount.login = login;
             newAccount.password = password;
-            newAccount.Avatar = "~/Stock/zeroUser.jpg";
+            newAccount.Avatar = "/Stock/zeroUser.jpg";
+            newAccount.vkPurchases = "";
+            newAccount.gamePurchases = "";
+            newAccount.scanPurchases = "";
+            newAccount.coinsPurchases = "";
 
             _context.Accounts.Add(newAccount);
             await _context.SaveChangesAsync();
 
             return newAccount;
         }
-        public async Task Delete(string login)
+        public async Task<Profile> Delete(string login)
         {
             /*Удаление пользователя по логину */
             var profileToDelete = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
 
             _context.Profiles.Remove(profileToDelete);
             await _context.SaveChangesAsync();
+            return null;
         }
-        public async Task<Profile> Update(Profile User, string password)
+
+        public async Task<Account> DeleteAccount(string login)
+        {
+            var accountToDelete = await _context.Accounts.FirstOrDefaultAsync(x => x.login == login);
+
+            _context.Accounts.Remove(accountToDelete);
+            await _context.SaveChangesAsync();
+            return null;
+        }
+
+        public async Task<Profile> Update(Profile User)
         {
             //var profileToUpdate = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
 
-            User.password = BCrypt.Net.BCrypt.HashPassword(password);
+            //User.password = BCrypt.Net.BCrypt.HashPassword(password);
+            _context.Profiles.Attach(User);
+            await _context.SaveChangesAsync();
+            return User;
+        }
+        public async Task<Account> UpdateAccount(Account User)
+        {
+            /*User.password = Updated.password;
+
+            User.Avatar = Updated.Avatar;
+            User.vkPurchases = Updated.vkPurchases;
+            User.gamePurchases = Updated.gamePurchases;
+            User.scanPurchases = Updated.scanPurchases;
+            User.coinsPurchases = Updated.coinsPurchases;*/
+            _context.Accounts.Attach(User);
 
             await _context.SaveChangesAsync();
-
             return User;
         }
 
@@ -79,6 +112,12 @@ namespace WebSite.Models
             var profileToRead = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
             await _context.SaveChangesAsync();
             return profileToRead;
+        }
+        public async Task<Account> ReadAccount(string login)
+        {
+            var accountToRead = await _context.Accounts.FirstOrDefaultAsync(x => x.login == login);
+            await _context.SaveChangesAsync();
+            return accountToRead;
         }
     }
 }

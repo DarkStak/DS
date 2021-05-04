@@ -1,1 +1,40 @@
-﻿
+﻿@model WebSite.Storage.Entity.ProfileReg
+@using WebSite.Storage.Entity
+@using Microsoft.AspNetCore.Http
+
+@{ var account = Context.Session.Get<Account>("user");
+                if (account == null)
+                    Context.Response.Redirect("/Auth/log");
+                string request_login = Model.login;
+                string request_password = Model.password;
+                string request_confirm = Model.confirm; }
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Registration</title>
+    <link href="~/reg.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form_reg" action="~/Profile/change" method="POST">
+        <section>
+            <img src="~/Stock/pngegg.png" style="height: 750px; width: 400px" />
+        </section>
+        <div class="sec2">
+            <div class="container">
+                <div class="content">
+                    <h2>Смена пароля</h2>
+                    <input type="password" id="TextBox1" name="login" placeholder="Старый пароль" value="@request_login" /><br />
+                    <input type="password" id="TextBox2" name="password" placeholder="Новый пароль" value="@request_password" /><br />
+                    <input type="password" id="TextBox3" name="confirm" placeholder="Повтор пароля" value="@request_confirm" /><br />
+                    <br />
+                    <input type="submit" value="Сменить пароль"><br /><br />
+                    <a href="~/Profile/Index">Личный кабинет</a>
+                    <h1>@ViewBag.answer</h1>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

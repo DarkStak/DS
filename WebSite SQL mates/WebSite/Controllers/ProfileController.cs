@@ -19,14 +19,8 @@ namespace WebSite.Controllers
 
         [HttpGet]
         [HttpPost]
-        public IActionResult Index(Profile User)
+        public IActionResult Index(Account User)
         {
-            ViewBag.answer = User.login;
-            if (Request.HasFormContentType == true)
-            {
-                //ViewBag.answer = _manager.ChangePassword(profile, Request.Form["password"], Request.Form["newpassword"], Request.Form["newconfirm"]);
-                
-            }
             return View(User);
         }
 
@@ -38,5 +32,33 @@ namespace WebSite.Controllers
             return View();
         }
 
+        [HttpGet]
+        [HttpPost]
+        public IActionResult purchased(Account User)
+        {
+
+            return View(User);
+        }
+
+        [HttpGet]
+        [HttpPost]
+        public IActionResult change(Account User)
+        {
+            ProfileReg profileReg = new ProfileReg();
+            if (Request.HasFormContentType == true)
+            {
+                ViewBag.answer = _manager.ChangePassword(HttpContext.Session.Get<Account>("user"), Request.Form["login"], Request.Form["password"], Request.Form["confirm"]).result;
+                profileReg.login = Request.Form["login"];
+                profileReg.password = Request.Form["password"];
+                profileReg.confirm = Request.Form["confirm"];
+            }
+            else
+            {
+                profileReg.login = "";
+                profileReg.password = "";
+                profileReg.confirm = "";
+            }
+            return View(profileReg);
+        }
     }
 }

@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@model WebSite.Storage.Entity.Account
+@using Microsoft.AspNetCore.Http
+@using WebSite.Storage.Entity
+
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -18,21 +22,21 @@
                         <img class="logo" src='~/Stock/DarkStak.png' /><br />
                         <br />
                         <div class="social">
-                                <a href="https://vk.com/public204124005">
-                                        <img src='/Stock/VK_Monochrome_Logo.png' width="45" height="45" />
-</a>
-                                <a href="https://discord.gg/yUGspxU8PJ">
-                                    <img src='/Stock/2111363.png' width="45" height="45" />
-                                </a>
+                            <a href="https://vk.com/public204124005">
+                                <img src='/Stock/VK_Monochrome_Logo.png' width="45" height="45" />
+                            </a>
+                            <a href="https://discord.gg/yUGspxU8PJ">
+                                <img src='/Stock/2111363.png' width="45" height="45" />
+                            </a>
 
-</div>
+                        </div>
                     </div>
                     <div class="content">
                         @Html.ActionLink("Авторизация", "log", "Auth")
                         @Html.ActionLink("Регистрация", "reg", "Auth")
                     </div>
                 </div>
-        </div>
+            </div>
         </form>
     </header>
 </body>

@@ -1,10 +1,18 @@
-﻿<!DOCTYPE html>
+﻿@model WebSite.Storage.Entity.Account
+@using Microsoft.AspNetCore.Http
+@using WebSite.Storage.Entity
+
+@{ 
+    var account = Context.Session.Get<Account>("user");
+    if (account == null)
+        Context.Response.Redirect("/Auth/log");
+}
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    
+
 </head>
 <body>
     <a href="#">

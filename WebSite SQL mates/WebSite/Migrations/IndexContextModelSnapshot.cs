@@ -18,16 +18,52 @@ namespace WebSite.Migrations
                 .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("WebSite.Storage.Entity.Profile", b =>
+            modelBuilder.Entity("WebSite.Storage.Entity.Account", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Discriminator")
+                    b.Property<string>("Avatar")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("coinsPurchases")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("gamePurchases")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("login")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("scanPurchases")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("vkPurchases")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Accounts");
+                });
+
+            modelBuilder.Entity("WebSite.Storage.Entity.Profile", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("login")
                         .IsRequired()
@@ -40,15 +76,6 @@ namespace WebSite.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Profiles");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("Profile");
-                });
-
-            modelBuilder.Entity("WebSite.Storage.Entity.Account", b =>
-                {
-                    b.HasBaseType("WebSite.Storage.Entity.Profile");
-
-                    b.HasDiscriminator().HasValue("Account");
                 });
 #pragma warning restore 612, 618
         }

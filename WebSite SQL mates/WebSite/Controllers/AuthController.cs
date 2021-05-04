@@ -33,12 +33,13 @@ namespace WebSite.Controllers
             Profile profileLog = new Profile();
             if (Request.HasFormContentType == true)
             {
-                ViewBag.answer = _manager.Login(Request.Form["login"], Request.Form["password"]);
+                var ResultBox = _manager.Login(Request.Form["login"], Request.Form["password"]);
+                ViewBag.answer = _manager.Login(Request.Form["login"], Request.Form["password"]).result;
                 profileLog.login = Request.Form["login"];
                 profileLog.password = Request.Form["password"];
                 if (ViewBag.answer == "Авторизация прошла успешно!")
                 {
-                    HttpContext.Session.SetString("login", profileLog.login);
+                    HttpContext.Session.Set<Account>("user", ResultBox.account);
                     return Redirect("/Profile/Index");
                 }
                 else if(ViewBag.answer == "Поля должны быть заполнены!")
@@ -73,22 +74,6 @@ namespace WebSite.Controllers
                 profileReg.confirm = "";
             }
             return View(profileReg);
-        }
-
-        [HttpGet]
-        [HttpPost]
-        public IActionResult Profile()
-        {
-            // Здесь десериализовать объект и  обработать пост запрос
-            if (Request.HasFormContentType==true)
-            {
-
-            }
-            else
-            {
-
-            }
-            return View();
         }
     }
 }

@@ -1,8 +1,10 @@
 ﻿@model WebSite.Storage.Entity.Profile
+@using WebSite.Storage.Entity
 @using Microsoft.AspNetCore.Http
 
 @{ 
-    if (Context.Session.GetString("login") != null)
+    var account = Context.Session.Get<Account>("user");
+    if (account != null)
         Context.Response.Redirect("/Profile/Index");
     string request_login = Model.login;
     string request_password = Model.password;

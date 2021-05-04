@@ -55,24 +55,30 @@ namespace WebSite.Managers
             _authModel = authModel;
         }
 
-        public string Login(string login, string password)
+        public LoginAnswer Login(string login, string password)
         {
+            LoginAnswer Result = new LoginAnswer();
             string answer = Checker.CheckLog(login, password);
+            Result.account = null;
+            Result.result = answer;
             if (answer == null)
             {
-                //if (Parser.ParseLogin(login) && Parser.ParsePassword(password))
                 {
                     var user = _authModel.Auth(login, password);
                     if (user.Result != null)
-                        return "Авторизация прошла успешно!";
+                    {
+                        Result.account=_authModel.ReadAccount(login).Result;
+                        Result.result = "Авторизация прошла успешно!";
+                    }
                     else
-                        return "Логин или пароль неверны!";
+                    {
+                        Result.account = null;
+                        Result.result = "Логин или пароль неверны!";
+                    }
+                        
                 }
-                //else
-                    //return "Логин или пароль слабые!";
             }
-            else
-                return answer;
+            return Result;
         }
 
         public string Register(string login, string password, string confirm)
@@ -99,21 +105,41 @@ namespace WebSite.Managers
                 return answer;
         }
 
-        public string ChangePassword(Profile User, string password, string newpassword, string newconfirm)
+        public LoginAnswer ChangePassword(Account User, string password, string newpassword, string newconfirm)
         {
+            LoginAnswer Res = new LoginAnswer();
             bool Result = BCrypt.Net.BCrypt.Verify(password, User.password);
             if (Result)
             {
                 if (newpassword == newconfirm)
                 {
-                    _authModel.Update(User, newpassword);
-                    return "Пароль успешно обновлён!";
+                    //BCrypt.Net.BCrypt.HashPassword(newpassword);
+                    Profile UpdateProfile = new Profile();
+                    UpdateProfile = _authModel.Read(User.login).Result;
+                    UpdateProfile.password = BCrypt.Net.BCrypt.HashPassword(newpassword);
+                    Account UpdateAccount = new Account();
+                    UpdateAccount = _authModel.ReadAccount(User.login).Result;
+                    UpdateAccount.password = BCrypt.Net.BCrypt.HashPassword(newpassword);
+                    _authModel.Update(UpdateProfile);
+                    _authModel.UpdateAccount(UpdateAccount);
+                    Res.result = "Пароль успешно обновлён!";
                 }
                 else
-                    return "Пароли не совпадают!";
+                {
+                    Res.result = "Пароли не совпадают!";
+                }
+                //$2a$11$mh1u9rt7hqY5PWbfGeBa8OR2ToyI0Bfm3qoHXTfU0/OULeQbBScQm
+                //$2a$11$n1v5hvdZSzIrskmMOn.cQuZp474bY7w6UjMys9izyqAkLipr7Kaj6
+
+                //
+                //$2a$11$n1v5hvdZSzIrskmMOn.cQuZp474bY7w6UjMys9izyqAkLipr7Kaj6
             }
             else
-                return "Неверный пароль!";
+            {
+                Res.result = "Неверный пароль!";
+            }
+            Res.account = User;
+            return Res;
         }
     }
 }

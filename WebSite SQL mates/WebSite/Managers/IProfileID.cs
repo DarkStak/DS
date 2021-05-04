@@ -8,8 +8,8 @@ namespace WebSite.Managers
 {
     public interface IProfileID
     {
-        public string Login(string login, string password);
+        public LoginAnswer Login(string login, string password);
         public string Register(string login, string password, string confirm);
-        public string ChangePassword(Profile User,string password, string newpassword, string newconfirm);
+        public LoginAnswer ChangePassword(Account User, string password, string newpassword, string newconfirm);
     }
 }

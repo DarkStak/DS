@@ -15,7 +15,7 @@ namespace WebSite.Storage
 
         }
 
-        public DbSet<Profile> Profiles { get; set; } // Получается вся бада данных содержиться в Profiles?
+        public DbSet<Profile> Profiles { get; set; }
         public DbSet<Account> Accounts { get; set; }
     }
 }

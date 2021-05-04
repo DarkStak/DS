@@ -1,0 +1,47 @@
+﻿@model WebSite.Storage.Entity.Account
+@using Microsoft.AspNetCore.Http
+@using WebSite.Storage.Entity
+
+@{ var account = Context.Session.Get<Account>("user");
+                if (account == null)
+                    Context.Response.Redirect("/Auth/log");
+                else
+                {
+                    List<string> vkPurchases = account.vkPurchases.Split("\0").ToList<string>();
+                    List<string> gamePurchases = account.gamePurchases.Split("\0").ToList<string>();
+                    List<string> scanPurchases = account.scanPurchases.Split("\0").ToList<string>();
+                    List<string> coinsPurchases = account.coinsPurchases.Split("\0").ToList<string>();
+                    <!DOCTYPE html>
+                        <html>
+                        <head>
+
+                        </head>
+                        <body>
+                            @{ 
+                                <h1>VK</h1>
+                                foreach (var iter in vkPurchases)
+                                {
+                                    <h1>@iter</h1><br /> 
+                                }
+                                <h1>Games</h1>
+                                foreach (var iter in gamePurchases)
+                                {
+                                    <h1>@iter</h1><br /> 
+                                }
+                                <h1>Scans</h1>
+                                foreach (var iter in scanPurchases)
+                                {
+                                    <h1>@iter</h1><br />
+                                }
+                                <h1>Coins</h1>
+                                foreach (var iter in coinsPurchases)
+                                {
+                                    <h1>@iter</h1><br />
+                                } 
+                              }
+                        </body>
+                    </html>
+                } 
+}
+
+
