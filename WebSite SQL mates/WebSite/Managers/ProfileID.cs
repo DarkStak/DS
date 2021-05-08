@@ -112,9 +112,8 @@ namespace WebSite.Managers
             bool Result = BCrypt.Net.BCrypt.Verify(password, User.password);
             if (Result)
             {
-                if (newpassword == newconfirm)
+                if ((newpassword == newconfirm) && (newpassword.Length >= 6))
                 {
-                    //BCrypt.Net.BCrypt.HashPassword(newpassword);
                     Profile UpdateProfile = new Profile();
                     UpdateProfile = _authModel.Read(User.login).Result;
                     UpdateProfile.password = BCrypt.Net.BCrypt.HashPassword(newpassword);
@@ -127,7 +126,10 @@ namespace WebSite.Managers
                 }
                 else
                 {
-                    Res.result = "Пароли не совпадают!";
+                    if (newpassword.Length < 6)
+                        Res.result = "Пароль должен быть минимум 6 символов!";
+                    else
+                        Res.result = "Пароли не совпадают!";
                 }
             }
             else
@@ -138,7 +140,7 @@ namespace WebSite.Managers
             return Res;
         }
 
-        public async Task<bool> UploadFile(IFormFile ufile)
+        public bool UploadFile(IFormFile ufile)
         {
             if (ufile != null && ufile.Length > 0)
             {
@@ -146,7 +148,7 @@ namespace WebSite.Managers
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\avatars", fileName);
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
-                    await ufile.CopyToAsync(fileStream);
+                    ufile.CopyTo(fileStream);
                 }
                 return true;
             }
@@ -176,8 +178,11 @@ namespace WebSite.Managers
                 {
                     Res.result = Avatar.FileName;
                     UploadFile(Avatar);
+                    Account UpdateAccount = new Account();
+                    UpdateAccount = _authModel.ReadAccount(User.login).Result;
                     Res.account.Avatar = "/avatars/" + Avatar.FileName;
-                    _authModel.UpdateAccount(Res.account);
+                    UpdateAccount.Avatar = "/avatars/" + Avatar.FileName;
+                    _authModel.UpdateAccount(UpdateAccount);
                 }
             }
             return Res;

@@ -31,7 +31,7 @@ namespace WebSite.Controllers
                 var Res = _manager.UpdateAvatar(HttpContext.Session.Get<Account>("user"), Avatar);
                 ViewBag.avatar = Res.result;
                 User = Res.account;
-                HttpContext.Session.Set<Account>("user", User);
+                HttpContext.Session.Set<Account>("user", Res.account);
             }
             else
             {

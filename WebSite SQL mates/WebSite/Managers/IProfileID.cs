@@ -12,7 +12,7 @@ namespace WebSite.Managers
         public LoginAnswer Login(string login, string password);
         public string Register(string login, string password, string confirm);
         public LoginAnswer ChangePassword(Account User, string password, string newpassword, string newconfirm);
-        public Task<bool> UploadFile(IFormFile ufile);
+        public bool UploadFile(IFormFile ufile);
         public LoginAnswer UpdateAvatar(Account User, IFormFile Avatar);
     }
 }
