@@ -8,6 +8,7 @@ using WebSite.Models;
 using System.Text.RegularExpressions;
 using System.IO;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 
 namespace WebSite.Managers
 {
@@ -128,17 +129,57 @@ namespace WebSite.Managers
                 {
                     Res.result = "Пароли не совпадают!";
                 }
-                //$2a$11$mh1u9rt7hqY5PWbfGeBa8OR2ToyI0Bfm3qoHXTfU0/OULeQbBScQm
-                //$2a$11$n1v5hvdZSzIrskmMOn.cQuZp474bY7w6UjMys9izyqAkLipr7Kaj6
-
-                //
-                //$2a$11$n1v5hvdZSzIrskmMOn.cQuZp474bY7w6UjMys9izyqAkLipr7Kaj6
             }
             else
             {
                 Res.result = "Неверный пароль!";
             }
             Res.account = User;
+            return Res;
+        }
+
+        public async Task<bool> UploadFile(IFormFile ufile)
+        {
+            if (ufile != null && ufile.Length > 0)
+            {
+                var fileName = Path.GetFileName(ufile.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), @"wwwroot\avatars", fileName);
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await ufile.CopyToAsync(fileStream);
+                }
+                return true;
+            }
+            return false;
+        }
+        public LoginAnswer UpdateAvatar(Account User,IFormFile Avatar)
+        {
+            LoginAnswer Res = new LoginAnswer();
+            Res.account = User;
+            byte[] jpegMagic = new byte[] { 255, 216, 255, 224 };
+            if (Avatar == null)
+            {
+                Res.result = "Файл не выбран!";
+            }
+            else
+            {
+                var fileStream = Avatar.OpenReadStream();
+                byte[] bytes = new byte[4];
+                fileStream.Read(bytes, 0, 4);
+                if (Avatar.Length > 52428800)
+                    Res.result = "Файл слишком большой!";
+                else if (Avatar.ContentType != "image/jpeg")
+                    Res.result = "Файл не является jpg!";
+                else if (jpegMagic.SequenceEqual(bytes) == false)
+                    Res.result = "Файл поврежден!";
+                else
+                {
+                    Res.result = Avatar.FileName;
+                    UploadFile(Avatar);
+                    Res.account.Avatar = "/avatars/" + Avatar.FileName;
+                    _authModel.UpdateAccount(Res.account);
+                }
+            }
             return Res;
         }
     }

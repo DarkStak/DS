@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using WebSite.Managers;
 using WebSite.Storage.Entity;
@@ -19,8 +22,21 @@ namespace WebSite.Controllers
 
         [HttpGet]
         [HttpPost]
+        [RequestSizeLimit(int.MaxValue)]
         public IActionResult Index(Account User)
         {
+            if (Request.HasFormContentType == true)
+            {
+                var Avatar = HttpContext.Request.Form.Files["fileUpload"];
+                var Res = _manager.UpdateAvatar(HttpContext.Session.Get<Account>("user"), Avatar);
+                ViewBag.avatar = Res.result;
+                User = Res.account;
+                HttpContext.Session.Set<Account>("user", User);
+            }
+            else
+            {
+
+            }
             return View(User);
         }
 

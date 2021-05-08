@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebSite.Storage.Entity;
+using Microsoft.AspNetCore.Http;
 
 namespace WebSite.Managers
 {
@@ -11,5 +12,7 @@ namespace WebSite.Managers
         public LoginAnswer Login(string login, string password);
         public string Register(string login, string password, string confirm);
         public LoginAnswer ChangePassword(Account User, string password, string newpassword, string newconfirm);
+        public Task<bool> UploadFile(IFormFile ufile);
+        public LoginAnswer UpdateAvatar(Account User, IFormFile Avatar);
     }
 }

@@ -155,3 +155,4 @@ C:\Users\ivan-\DS\WebSite SQL mates\WebSite\obj\Debug\net5.0\WebSite.pdb
 C:\Users\ivan-\DS\WebSite SQL mates\WebSite\obj\Debug\net5.0\WebSite.genruntimeconfig.cache
 C:\Users\ivan-\DS\WebSite SQL mates\WebSite\obj\Debug\net5.0\WebSite.csprojAssemblyReference.cache
 C:\Users\ivan-\DS\WebSite SQL mates\WebSite\obj\Debug\net5.0\Razor\Views\Profile\purchased.cshtml.g.cs
+C:\Users\ivan-\DS\WebSite SQL mates\WebSite\bin\Debug\net5.0\web.config

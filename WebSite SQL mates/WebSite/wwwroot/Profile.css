@@ -15,6 +15,28 @@ section {
     text-decoration: none;
 }
 
+.filecontent label{
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 1.4vw;
+    margin-top: 2vh;
+    border-radius: 6px;
+    border: 1px solid;
+    background-color: black;
+    font-size: 13px;
+}
+
+.filecontent input[type=submit]{
+    font-family: 'SEGOE PRINT', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 1.4vw;
+    margin-top: 2vh;
+    border-radius: 6px;
+    border: 1px solid;
+    background-color: black;
+    font-size: 13px;
+}
+
 .container {
     max-width: 1170px;
     margin: auto;

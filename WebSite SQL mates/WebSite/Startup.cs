@@ -13,7 +13,7 @@ using WebSite.Storage.Entity;
 using WebSite.Storage;
 using WebSite.Managers;
 using WebSite.Models;
-
+using Microsoft.AspNetCore.Http.Features;
 
 namespace WebSite
 {
@@ -29,6 +29,12 @@ namespace WebSite
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+            services.Configure<FormOptions>(x =>
+            {
+                x.ValueLengthLimit = int.MaxValue;
+                x.MultipartBodyLengthLimit = int.MaxValue;
+            });
             services.AddControllersWithViews();
             services.AddDbContext<IndexContext>(options => options.UseSqlServer(
                 "Server=localhost;Database=users;User ID=genryblackeye;Password=Serv_1dataBase04"));

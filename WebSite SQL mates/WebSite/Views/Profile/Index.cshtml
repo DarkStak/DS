@@ -7,6 +7,10 @@
         Context.Response.Redirect("/Auth/log");
     else
     {
+        @*if (Context.Request.Form["uploadFile"]=="")
+        {
+
+        }*@
          <!DOCTYPE html>
 
          <html xmlns="http://www.w3.org/1999/xhtml">
@@ -16,38 +20,41 @@
              <link href="~/Profile.css" rel="stylesheet" />
          </head>
          <body>
-             <form id="form1" runat="server">
-                 <section>
-                     <img src="~/Stock/pngegg.png" style="height: 750px; width: 500px" />
-                 </section>
-                 <div class="sec2">
-                     <div class="container">
-                         <div class="content">
-                             <img src="@account.Avatar" alt="" width="150" height="150" />
-                         </div>
-                         <div class="content1">
-                             <input type="submit" value="Поменять аватар" />
-                         </div>
-                         <div class="content2">
-                             <h1>@account.login</h1>
-                         </div>
-                         <div class="content3">
-                             <a href="~/Profile/change">Смена пароля</a>
-                         </div>
-                         <br />
-                         <br />
-                         <div class="content5">
-                             <a href="~/Profile/purchases">Список покупок</a>
-                         </div>
-                         <br />
-                         <br />
-                         <div class="content4">
-                             <a href="~/Profile/purchased">Корзина</a>
-                         </div>
+               <section>
+                   <img src="~/Stock/pngegg.png" style="height: 750px; width: 500px" />
+               </section>
+               <div class="sec2">
+                   <div class="container">
+                       <div class="content">
+                           <h1>@ViewBag.Avatar</h1>
+                           <img src="@account.Avatar" alt="" width="150" height="150" />
+                       </div>
+                       <form action="~/Profile/Index" enctype="multipart/form-data" method="POST">
+                           <div class="filecontent">
+                               <input type="file" name="fileUpload" id="image" style="display: none;"/>
+                               <label for="image">Загрузить аватар</label>
+                               <input type="submit" value="Сменить аватар"/>
+                           </div>
+                       </form>
+                       <div class="content2">
+                           <h1>@account.login</h1>
+                       </div>
+                       <div class="content3">
+                           <a href="~/Profile/change">Смена пароля</a>
+                       </div>
+                       <br />
+                       <br />
+                       <div class="content5">
+                           <a href="~/Profile/purchases">Список покупок</a>
+                       </div>
+                       <br />
+                       <br />
+                       <div class="content4">
+                           <a href="~/Profile/purchased">Корзина</a>
+                       </div>
 
-                     </div>
-                 </div>
-             </form>
+                   </div>
+               </div>
          </body>
      </html> 
      } 
