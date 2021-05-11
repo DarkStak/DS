@@ -115,7 +115,7 @@ namespace WebSite.Managers
                 if ((newpassword == newconfirm) && (newpassword.Length >= 6))
                 {
                     Profile UpdateProfile = new Profile();
-                    UpdateProfile = _authModel.Read(User.login).Result;
+                    UpdateProfile = _authModel.Read(User.login).Result; // SqlException: Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding. и NullReferenceException: Object reference not set to an instance of an object.
                     UpdateProfile.password = BCrypt.Net.BCrypt.HashPassword(newpassword);
                     Account UpdateAccount = new Account();
                     UpdateAccount = _authModel.ReadAccount(User.login).Result;
@@ -154,7 +154,7 @@ namespace WebSite.Managers
             }
             return false;
         }
-        public LoginAnswer UpdateAvatar(Account User,IFormFile Avatar)
+        public LoginAnswer UpdateAvatar(Account User, IFormFile Avatar)
         {
             LoginAnswer Res = new LoginAnswer();
             Res.account = User;
@@ -176,10 +176,10 @@ namespace WebSite.Managers
                     Res.result = "Файл поврежден!";
                 else
                 {
-                    Res.result = Avatar.FileName;
+                    Res.result = "Аватар успешно обновлен!";
                     UploadFile(Avatar);
                     Account UpdateAccount = new Account();
-                    UpdateAccount = _authModel.ReadAccount(User.login).Result;
+                    UpdateAccount = _authModel.ReadAccount(User.login).Result; // SqlException: Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding. и NullReferenceException: Object reference not set to an instance of an object.
                     Res.account.Avatar = "/avatars/" + Avatar.FileName;
                     UpdateAccount.Avatar = "/avatars/" + Avatar.FileName;
                     _authModel.UpdateAccount(UpdateAccount);

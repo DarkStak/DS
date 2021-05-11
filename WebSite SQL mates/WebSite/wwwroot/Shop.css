@@ -37,10 +37,10 @@ section {
     align-items: center;
     text-decoration: none;
 }
-.content a:link, a:visited {
+.content a {
     text-decoration: none;
     visibility: unset;
-    background-color: white;
+    background-color: #f8f7f7;
 }
 .content {
     position: relative;

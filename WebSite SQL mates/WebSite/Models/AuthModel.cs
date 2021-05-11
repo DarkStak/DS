@@ -85,22 +85,12 @@ namespace WebSite.Models
 
         public async Task<Profile> Update(Profile User)
         {
-            //var profileToUpdate = await _context.Profiles.FirstOrDefaultAsync(x => x.login == login);
-
-            //User.password = BCrypt.Net.BCrypt.HashPassword(password);
             _context.Profiles.Attach(User);
             await _context.SaveChangesAsync();
             return User;
         }
         public async Task<Account> UpdateAccount(Account User)
         {
-            /*User.password = Updated.password;
-
-            User.Avatar = Updated.Avatar;
-            User.vkPurchases = Updated.vkPurchases;
-            User.gamePurchases = Updated.gamePurchases;
-            User.scanPurchases = Updated.scanPurchases;
-            User.coinsPurchases = Updated.coinsPurchases;*/
             _context.Accounts.Attach(User);
 
             await _context.SaveChangesAsync();
