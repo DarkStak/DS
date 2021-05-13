@@ -40,6 +40,7 @@ namespace WebSite
                 "Server=localhost;Database=users;User ID=genryblackeye;Password=Serv_1dataBase04"));
             services.AddTransient<IAuthModel, AuthModel>();
             services.AddTransient<IProfileID, ProfileID>();
+            services.AddTransient<IGenerator, Generator>();
             services.AddSession();
         }
 

@@ -14,10 +14,12 @@ namespace WebSite.Controllers
     public class ProfileController : Controller
     {
         private IProfileID _manager;
+        private IGenerator _generator;
 
-        public ProfileController(IProfileID manager)
+        public ProfileController(IProfileID manager, IGenerator generator)
         {
             _manager = manager;
+            _generator = generator;
         }
 
         [HttpGet]
